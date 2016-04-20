@@ -23,9 +23,9 @@ makeCacheMatrix <- function(x = matrix())
                 }
                 
                 # 3. set the value of inverse of the matrix
-                setinverse <- function(inverse) 
+                setinverse <- function(inv) 
                 {
-                        m_inv <<- inverse
+                        m_inv <<- inv
                 }
                 # 3. get the value of inverse of the matrix
                 getinverse <- function() 
